@@ -1,6 +1,6 @@
 # maui-dividends-app
 
-Stock Market Tracker App
+# Stock Market Tracker App
 
 Overview
 
@@ -30,7 +30,7 @@ Installation
 
 Clone the Repository:
 
-git clone https://github.com/yourusername/StockMarketTracker.git
+git clone 
 cd StockMarketTracker
 
 Open the Project in Visual Studio:
