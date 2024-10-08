@@ -1,0 +1,49 @@
+# .gitignore for Stock Market Tracker App
+
+# Build files
+bin/
+obj/
+
+# User-specific files
+.vscode/
+*.userprefs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio specific
+*.VC.db
+*.VC.opendb
+
+# Logs
+*.log
+
+# NuGet Packages
+packages/
+*.nupkg
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# API keys or sensitive configuration
+MainPage.xaml.cs
+DividendPage.xaml.cs
+
+# macOS files
+*.DS_Store
+
+# Windows image file caches
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
