@@ -31,10 +31,6 @@ packages/
 .idea/
 *.sln.iml
 
-# API keys or sensitive configuration
-MainPage.xaml.cs
-DividendPage.xaml.cs
-
 # macOS files
 *.DS_Store
 
