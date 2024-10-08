@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StockMarketApp.DividendPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Dividend History"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <ListView x:Name="DividendListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <Label Text="{Binding Date}" FontSize="18" WidthRequest="150" />
+                            <Label Text="{Binding DividendValue}" FontSize="18" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
